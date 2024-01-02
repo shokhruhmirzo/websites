@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: url(./bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 50px;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.box {
+    width: 600px;
+    height: 500px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+
+}
+
+.box-img img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.box-img {
+    margin-top: -50px;
+    margin-left: 250px;
+    padding-bottom: 30px;
+}
+
+.box__1 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    background: transparent;
+    width: 500px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 130px;
+    letter-spacing: 2px;
+}
+
+.box__1 img{
+    margin-left: 10px;
+}
+
+.telegram:hover{
+    box-shadow: 0px 0px 10px 10px #008cff;
+    border: 2px solid #008cff;
+    color: #008cff;
+}
+.instagram:hover{
+    box-shadow: 0px 0px 10px 10px #ff006a;
+   border: 2px solid #ff006a;
+    color: #ff006a;
+}
+.git:hover{
+    box-shadow: 0px 0px 10px 10px #000000bb;
+    border: 2px solid #000000bb;
+    color: #000000bb;
+}
